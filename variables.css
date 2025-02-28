@@ -1,0 +1,52 @@
+:root {
+--color-name: custom-purple-theme;
+  --color-bg-shade: #110a15; /* Deep dark purple */
+  --color-bg-base: #482953;
+  --color-bg-surface: #5B3463;
+  --color-bg-highlight: #6F4970;
+  --color-fg-shade: #695D88; /* Muted contrast */
+  --color-fg-base: #766E90;
+  --color-fg-surface: #000000;
+  --color-fg-highlight: #c3c1c4; /* Lightest text for high contrast */
+  --color-primary-bg: #66586c; /* Balanced purple */
+  --color-primary-base: #482953;
+  --color-primary-fg: #766E90;
+  --color-secondary-bg: #6F4970; 
+  --color-secondary-base: #695D88;
+  --color-secondary-fg: #766E90;
+  /** palette */
+  --color-palette-red: #F38BA8;
+  --color-palette-green: #A6E3A1;
+  --color-palette-yellow: #F9E2AF;
+  --color-palette-blue: #89B4FA; /* Core blue */
+  --color-palette-purple: #CBA6F7;
+  --color-palette-cyan: #94E2D5; /* Blue-green cyan accent */
+  --color-palette-orange: #FAB387;
+
+  /** general */
+  --font-family: Quicksand, sans-serif;
+  --font-size: 1rem;
+  --display-image: block;
+
+  /** surface */
+  --surface-maxWidth: 1100px;
+  --surface-shadow: 12px 12px 0px rgb(104, 88, 136),  /* Soft muted purple */
+                    24px 24px 0px rgb(120, 94, 152),
+                    36px 36px 0px rgb(136, 100, 168),
+                    48px 48px 0px rgb(152, 106, 184),
+                    60px 60px 0px rgb(168, 112, 200);
+
+  --surface-borderRadius: 21px;
+
+  /** spacing */
+  --space-smallest: 0.125rem;
+  --space-small: 0.5rem;
+  --space-medium: 1rem;
+  --space-large: 1.5rem;
+  --space-largest: 3rem;
+
+  /** others */
+  --picture-size: 300px;
+  --group-count: 2;
+}
+
